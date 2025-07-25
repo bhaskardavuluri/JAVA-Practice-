@@ -1,0 +1,17 @@
+Abstraction:
+----------------------------------------------------------------------------------------------------------
+Def:-  Abstraction means it contains abstract methods(non-concrete methods) and normal methods
+       (concrete methods). If your class consists of atleast one Abstract method you class must 
+       and should be an Abstract class.
+purpose:-"The main purpose of Abstract classes are used to HIde the internal Implementation and 
+          show the neccesary Features which are needed only."
+-----------------------------------------------------------------------------------------------------------
+How to Achieve Abstrction :-
+1)By using abstract classes -We cannot objects for abstract classes but we can create by using subclasses..
+2)by using interfaces 
+---------------------------------------------------------------------------------------------------------
+Real Time example for Abstraction:-
+--------------------------------------------------------------------------------------------------------
+We can take a car as a example because when we press start button the car engine will start but we dont know 
+how the Internal implementation is going on to start the car..
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+Interfaces:
+---------------------------------------------------------------------------------------
+Def:-Interfaces are nothing but blueprint of a class in which it contains only Abstract 
+      Methods and we need not to create Ojects for the Interfaces..
+----------------------------------------------------------------------------------------
+Purpose of Interfaces:-
+----------------------------------------------------------------------------------------
+The main purpose of Interfaces are to Achieve 100% Abstraction..
+used to implement the multiple inheritance 
+----------------------------------------------------------------------------------------
+Real time example:-
+----------------------------------------------------------------------------------------
+Your having a Bluetoth device which can be considered as a Interface.
+we are connecting devices like MObile,Speaker,laptop Devices to implement that interface.
+----------------------------------------------------------------------------------------
+Syntax:-
+----------------------------------------------------------------------------------------
+interface babu{
+    abstract void show();  //achieveing 100% Abstraction..
+    int value=100;
+    default void show(){  //default methods
+        sout("hii babu);
+    }
+    static void display(){   //using static methods 
+        sout("hii nanna");
+    }
+    
+    
+}
+---------------------------------------------------------------------------------------

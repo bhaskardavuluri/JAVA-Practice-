@@ -1,0 +1,74 @@
+Syntax:
+==============================================
+Conditional statements:
+----------------------------------------------
+1)If-condition Syntax
+if (condition) {
+    // code to execute if condition is true
+}
+----------------------------------------------
+2)if-Else condition Syntax
+if (condition) {
+    // executes if true
+} else {
+    // executes if false
+}
+-----------------------------------------------
+3)else-if condition Syntax
+if (condition1) {
+    // executes if condition1 is true
+} else if (condition2) {
+    // executes if condition2 is true
+} else {
+    // executes if all conditions are false
+}
+------------------------------------------------
+4)Switch condition Syntax
+switch (expression) {
+    case value1:
+        // code block
+        break;
+    case value2:
+        // code block
+        break;
+    default:
+        // default code block
+}
+===================================================================================
+Iterative Statements
+====================================================================================
+1)For-loop Syntax
+for (initialization; condition; increment/decrement) {
+    // code to execute
+}
+-----------------------------------------------------------
+2)while-Loop Syntax
+initialization;
+while (condition) {
+    // code to execute
+    update;
+}
+-------------------------------------------------------------
+3)Do-while Loop Syntax
+initialization;
+do {
+    // code to execute
+    update;
+} while (condition);
+=========================================================================================
+4)Break:
+-----------------------------------------------------------------------------------------
+Def:-The break is used to terminate a loop or switch the statements,when break is encountered 
+the loop automatically encounters that it exits the loop or else switch to the next block.
+Syntax:-
+--------------------
+breal;
+=========================================================================================
+5)Continue:
+------------------------------------
+The continue statement is used to skip the current iteration without terminating the current 
+loop.
+Syntax:-
+----------------------------
+continue;
+===========================================================================================

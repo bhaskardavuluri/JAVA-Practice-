@@ -1,0 +1,47 @@
+Inheritance
+========================================================================
+Acquirng properties and their behaviour from one class to another class
+is known as Inheritance..
+========================================================================
+Example for Inheritance
+========================================================================
+parent surname and his properties can be applicable for his son thu can be 
+considered as an real time example for Inheritance..
+========================================================================
+Syntax:-
+------------------------------------------------------------------------
+class Parent{
+    //properties and methods
+}
+class cjild extends Parent{
+    //Inherits from the parent
+}
+========================================================================
+Types of Inheritance
+------------------------------------------------------------------------
+1)Single Inheritance
+2)Multilevel Inheritance
+3)hierachael Inheritance
+4)Multiple Inheritance(Using Interfaces only but not JAVA).
+------------------------------------------------------------------------
+Single Inheritance
+-----------------------------------------------------------------------
+one class inherits from only one another class
+------------------------------------------------------------------------
+Multilevel Inheritance
+------------------------------------------------------------------------
+A class Inherit from one class and that class is already Inherited from
+another class.
+-----------------------------------------------------------------------
+hierachael Inheritance
+-----------------------------------------------------------------------
+Two or more Classes Inherits From same parent class.
+-----------------------------------------------------------------------
+Mutliple Inheritance
+----------------------------------------------------------------------
+a class Inherits properties more than two parent classes.. java doesnt 
+support Multiple Inheritance.. but it is only possible by using interfaces..
+======================================================================
+How to achieve Inheritance:-
+----------------------------------------------------------------------
+Inheritance can be Achieved by using extends keyword..

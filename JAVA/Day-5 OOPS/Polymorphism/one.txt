@@ -1,0 +1,25 @@
+Polymorphism
+=================================================================================================
+Def:-In java Polymorphism is nothing but one Acton many forms in wbich java allows objects to take
+     many forms..
+example:-We can take human as example for polymorphism because when we are in college we act like a 
+         student and when we are in home we act like whatever we want..so this can be considered as
+         the best example for Polymorphism.
+Types of Polymorphism:-1)Compile Time polymorphism
+                       2) Run time Polymorphism
+----------------------------------------------------------------------------------------------------
+Compile-time Polymorphism:-
+----------------------------------------------------------------------------------------------------
+Def:-compile time polymorphism is also known as method Overloading.
+Method Overloading:-same name same method same return type  but different parameters can be considered as 
+                    Method Overloading.
+----------------------------------------------------------------------------------------------------
+Run-time Polymorphism:-
+----------------------------------------------------------------------------------------------------
+Def:-Run-time polymorphism is also known as Method Overriding.
+Method Overriding:-same name same method same return type but different implementation can be considere
+                   as method Overriding..
+-----------------------------------------------------------------------------------------------------
+How to Achieve Polymorphism:-
+-----------------------------------------------------------------------------------------------------
+we can achieve Encapsulation by using Method Overloading and Method Overriding..

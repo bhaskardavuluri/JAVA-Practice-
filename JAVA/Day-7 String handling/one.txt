@@ -1,0 +1,32 @@
+Strings In JAVA
+========================================================================================
+String:- A group of characters enclosed with double quotations ""..
+         Strings are Immutable.
+----------------------------------------------------------------------------------------
+Purpose of Strings:-
+To the store the data and manipulate the data like text.
+----------------------------------------------------------------------------------------
+How to create a String in JAVA:-
+------------------------------------
+we can create String in jAVA by  using Two ways:-1)By using String Literal-(String constant pool)
+                                                 2) By using new keyword-(heap memory)
+-----------------------------------------------------------------------------------------
+Why Strings are immutable in JAVA?
+--------------------------------------
+The strings are Immutable in JAVA basically Strings are mostly based for storing the data
+so,to achieve security,performance and effiency of the data the strings are Immutable.
+-----------------------------------------------------------------------------------------
+Memory Allocation in Strings:
+--------------------------------------------
+Type               |    Memory           |   Description
+1)String Literal   |    stored in SCP    |   reuses if it is already exists.
+2)new()            |   Stored in Heap    |   creates a new Object for every new string.
+----------------------------------------------------------------------------------------
+Some String methods:
+-------------------------------
+1)length()-returns the length of an String.
+2)charAt(i)-returns the char value at the specified index.
+3)concat(str)-it is used to join two strings.
+4)equals(str)-checks the content of the strings and returns the boolean values.
+5)toUppercase()-converts the string into Uppercase.
+6)contaisn(str)-checks if the String is exists or not and returns the booloean value.

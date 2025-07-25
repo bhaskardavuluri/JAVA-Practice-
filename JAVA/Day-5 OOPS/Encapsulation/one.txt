@@ -1,0 +1,40 @@
+OOPS:
+=====================================================================================================
+Def:-OOPs is a paradigm which means we can solve any kind of problems in any programming language
+     based upon Objects..
+======================================================================================================
+Four main Pillars of OOPs :-
+---------------------------------------------------
+1)Encapsulation
+2)Inheritance 
+3)Abstraction
+4)Polymorphism
+=======================================================================================
+Encapsulation:-
+=======================================================================================
+Def:-Binding of Data and Methods into an single entity..
+example:-we can take class an example because we are binding the variables and methods inside a class..
+Purpose:-To hide Implementation Details of the Data...
+Real time Example:-we can take Bank Account as an example ..
+                 i)we cannot directly access or change the account balance...
+                ii)we need to create the methods like 
+                        a)Deposit() b)Withdraw()
+=======================================================================================
+Syntax:-
+---------------------------------------------------------------------------------------
+public class Test{
+    private Datatype variable;  //making fields as private 
+    public Datatype getvariable(){   //using getters
+        return variable;
+    
+    }
+    public void setvariable(Datatype number){  //using setters...
+        return this.variable=number;
+    }
+}
+-------------------------------------------------------------------------------------------
+How to achieve Encapsulation:-
+============================================================================================
+we can achieve Encapsulation By using setters and getters and making the fields as private..
+
+

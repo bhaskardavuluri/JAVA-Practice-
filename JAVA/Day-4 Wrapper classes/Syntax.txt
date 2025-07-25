@@ -1,0 +1,20 @@
+Wrapper classes Syntax:
+===========================================
+if you want to convert the primitive datatypes into objects first you need to create an wrapper object..
+=====================================================================================================
+Syntax:-
+-----------------------
+syntax 1:-int a =10;
+Integer obj=new Integer(a);
+-------------------------
+syntax 2 :-By using valueof() method
+int a =10;
+Integer obj=Integer.valueof(a);
+-------------------------
+syntax 3:-Autoboxing 
+int a=10;
+Integer b=a;
+-------------------------
+syntax 4:-unboxing
+Integer a=20;
+int b=a;

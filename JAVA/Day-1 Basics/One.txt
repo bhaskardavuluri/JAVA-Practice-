@@ -1,0 +1,50 @@
+class
+==================================================
+syntax:-class classname[
+    //variables
+    //methods
+]
+example:-class Test{}
+==================================================
+object
+==================================================
+Synatx:-classname objname=new classname();
+example:-Test B=new Test();
+i.e Here B is the object it allocates some memory space 
+===================================================
+variable
+=====================================================
+syntax:-datatype variable variable-name;
+example:-1)int number;
+         2)String ename;
+Types of variables:-1)Local-inside method
+                    2)instance-inside class outside method
+                    3)static-one copy  shared among all the objects.
+========================================================
+========================================================
+Datatypes
+--------------------------------------------------------
+Types:-1)Primitive Datatypes-Single valued
+       2)Non-primitive Datatypes-Multiple values
+examples of Primitive Datatypes:-1)Int-  (-128 To 127)
+                                 2)char
+                                 3)boolean
+                                 4)long
+                                 4)double
+                                 5)float..etc
+examples of non-primitive Datatypes:-1)Arrays
+                                     2)objects
+                                     3)class
+                                     4)Strings
+==========================================================
+operators
+----------------------------------------------------------
+Types of operators in JAVA:-1)Arithemetic operators=+,-,*,/,%,++,-- (Used to perform common mathematical operations).
+                            2)Relational operators = ==,!=,>,<,>=,<= (Used to perform comaparision between the operators)
+                            3)Bitwise operators=&,',^,<<,>> (used to perform operations directly on the individual bits of integers)
+                            4)Assignment operators= =,+=,-=,*=,/=,%=,&=,!=,^=,>>=,<<= (Used to Assign the values to the variables).
+                            5)logical operators=&&,||,! (Used to check the logic Between the values or values).
+                            6)Unary operators   
+
+
+            

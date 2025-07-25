@@ -1,0 +1,47 @@
+Constructors:-
+==============
+Def:-The constructors are used to initialize the Object values at run time .and the constructor is 
+automatically called when an object is created.
+---------------------------------------------------------------------------------------------
+Purpose of constructors:-
+-------------------------
+1)To initialize the Object values 
+2)To give custom values and default values.
+---------------------------------------------------------------------------------------------
+Types of constructors:-
+------------------------
+1)Default constructors 
+2)Parametrized constructors.
+---------------------------------------------------------------------------------------------
+Default constructor:-
+---------------------
+Def:-This constructor is automaticaaly called when an object is created no need to declare any 
+Default constructor.. all the JAVA classes has an Inbuilt default constructor..
+---------------------------------------------------------------------------------------------
+Parametrized Constructor:-
+---------------------------
+The parametrized constructor is nothing but consists of arguments..
+----------------------------------------------------------------------------------------------
+Rules of constructors:-
+-------------------------------
+1)The constructor name must be the class name.
+2)It has not even have  a return type and even void also.
+----------------------------------------------------------------------------------------------
+Default constructor Syntax:-
+------------------------------
+class Person{
+    Person(){
+        sout("the default constructor is called");
+    }
+}
+-----------------------------------------------------------------------------------------------
+Parametrized Constructor SyntaxP:-
+-------------------------------------
+class Person{
+    String name;
+    int age;
+    Person(String n ,int a){
+        name=n;
+        age=a;
+    }
+}

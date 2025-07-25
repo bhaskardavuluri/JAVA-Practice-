@@ -1,0 +1,12 @@
+JAVA Arrays
+======================================================================================================
+def:-arrays are nothing but group of elements with same datatype stored in an
+     contagious memory allocations which means the elements are stored side by side ..
+--------------------------------------------------------------------------------------------------------
+Purpose of Arrays:
+=========================================
+1)used to store fixed values in an single entity..
+====================================================================
+Syntax of creating Arrays:-
+====================================================================
+Datatype[] Array-name={elements}
