@@ -1,0 +1,29 @@
+StringBuffer and StringBuilder:
+-----------------------------------------------------------------------------------------------
+String Buffer:- 1)String Buffer is a class which is used to create Mutable Strings.
+                2)A Stringbuffer Object can be changed without creating Object everytime.
+Purpose of String Buffer:-
+---------------------------------
+when your doing multiple modifications in Strings then we will use Stringbuffer without creating 
+new Objects unlike strings.
+Syntax:-
+---------------------------------
+String Buffer s=new String buffer();
+Note:
+---------------------------------
+it is synchronized (thread-safe) -safer in multiple-threaded programs.
+================================================================================================
+================================================================================================
+String Builder:-
+--------------------
+1)String Builder is a class which is used to create mutable strings.
+2) String Builder object can be changed without creating any new object everytime.
+Purpose of String Builder:
+--------------------------------
+when your doing multiple modifications in Strings then we will use Stringbuffer without creating 
+new Objects unlike strings.
+Syntax:-
+------------------
+StringBuilder s=new StringBUilder();
+---------------------------------------
+It is Asynchronized (not-thread safe) -safer in single threaded programs.
