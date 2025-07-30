@@ -1,0 +1,55 @@
+Exception Handling:
+-------------------------------------------------------------------------------
+what is an Exception:
+-----------------------------
+Def:-An unexpected event occurs during an exceution of a program.
+Exception Handling:
+-----------------------------
+Def:-The errors can be handled by using some blocks called they are :
+      1)Try and Catch Block.
+      2)finally block
+      3)Throws
+      4)Throw.
+-------------------------------------------------------------------------------
+Purpose of Exception Handling:
+-------------------------------
+To prevent the errors at compile and run time ..
+-------------------------------------------------------------------------------
+Types of Exception Handling:-
+-------------------------------
+1)Compile time exception 
+2)Run-time exception..
+--------------------------------------------------------------------------------
+Compile time exception:-
+-------------------------
+Def:-compile time exceptions are also known as checked exceptions 
+examples of checked exceptions:-1)IOEXCEPTION
+                                2)SQLEXCEPTION
+                                3)FILENOTFOUNDEXCEPTION.
+---------------------------------------------------------------------------------
+Run-time exceptions:-
+------------------------
+Def:-Run-time exceptions are also known as as unchecked exception.
+examples of unchecked exceptions:-1)ARRAYOUTOFBOUNDEXCEPTION
+                                  2)NULLPOINTEREXCEPTION
+                                  3)ARITHEMETICEXCEPTION
+                                  4)NUMBERFORMATEXCEPTION.
+----------------------------------------------------------------------------------
+Explanation of Blocks:-
+-----------------------------------
+1)Try Block:- Whatever the abnormal code we are getting we are keeping in the Try Block.
+2)Catch Block:- In catch block we have to write the handling code which must be written for the 
+                error in the try-block.
+3)Finally Block:-Irrespective of Execption handling whatever we are writing in the finally block 
+                 will exceute first.
+4)Throws Block:-The throws Block we are ignoring the exception near to the main-method.
+5)throw Block:-This Block is used to Raise an custom Exception.
+Syntax of Exception Handling:
+------------------------------------
+try {
+    // code that may throw exception
+} catch (ExceptionType e) {
+    // code to handle exception
+} finally {
+    // code that always executes (optional)
+}

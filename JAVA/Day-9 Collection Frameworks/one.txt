@@ -1,0 +1,241 @@
+Collections:
+------------------------------------------------------------------------------------------
+A collection is a framework which is used to overcome the disadvantages of an array.
+framework:
+---------------------------
+a framework is a combination of classes,methods and interfaces is known as a framework.
+Collections:-
+---------------------------
+1)It is  a combination of interfaces and their implementation classes.
+2) it is a combination of array classes and their Utility classes.
+3)and also combination of map and their implementation classes.
+So,all the above combinations can be considered as the collections.
+
+
+                             Collection Frameworks
+                                        |
+                                        |
+                                        |
+                                        |
+            ---------------------------------------------------------------------
+            |                                                                   |
+            collection                                                         map
+            (Interface)                                                      (Interface)
+                                                                        
+            
+Collection (Interface) - 1)LISTS-i)ArrayLists ii)Linkedlists
+                         2)SET-i)hash set ii)Linkedhashset iii)tree set
+                         3)QUEUE-i)Deque ii)priority QUEUE
+Map (Interface)-i)Hash map ii)linked hash map iii)hash table iv)hash tree.
+
+
+==============================================================================================
+Collection Interface:- If you want to represent group of all elements as one entity by allowing
+                       heterogeneous elements and duplicates can be known as colection interfaces.
+LISTS:-i)List is an interface that represents an sequence of elements.
+       ii)you can access the elements based upon indexing.
+       iii)maintains insertion order.
+       iv)it allows duplicate elements.
+TYPES OF LISTS:-i)ArrayLists
+                ii)Linkedlists.
+ArrayLists:-Groups of elements into an single entity by allowing hetergeneous and duplicate elements is 
+            known as arraylists.
+            ii)elements are stored based upon indexing.
+            iii)insertion order is maintained.
+            iv)we can iterate arraylists using for,while,do-while,for-each and also hy using iterator.
+Syntax of ArrayList:-
+------------------------------------
+ARRAYLIST <> ARRAYLIST-NAME=NEW ARRAYLIST<>();
+<>-Datatype must be mentioned.
+------------------------------------
+ARRAYLIST METHODS:-
+------------------------------------
+i)add
+ii)get
+iii)set
+iv)remove
+v)clear
+vi)contains 
+vii)size().
+when to use arraylists:
+-----------------------------
+mainly used for extracting of the data.
+===================================================================================================
+Linked List:
+---------------
+group of elements used to store in an sequence of order where each element(node) is connected
+to each another element (node).
+ii)elements are stored in nodes each node points to the next and previous nodes.
+iii)it maintains insertion order
+iv)it allows duplicates and hetergeneous elements.
+Syntx of LINKED LIST:
+--------------------------------
+LINKEDLIST <> LINKEDLIST-NAME=NEW LINKEDLIST<>();
+<>-datatype of the element.
+methods in LINKEDLIST:
+---------------------------------
+1)add
+ii)set
+iii)get
+iv)size
+v)remove
+vi)contains
+vii)clear.
+when to use LINKEDLIST:
+------------------------------------
+mainly used for faster insertion/deletion of elements.
+================================================================================================
+================================================================================================
+SET:
+----------------------------
+set is a collection oif elements that doesnot mainatin any sequential order and also it dosent allow 
+hetergeneous and duplicates elements.
+ii)insertion order is not maintained
+iii)indexing is also not possible.
+TYPES OF SET:-
+----------------------
+1)hash set
+ii)LINKED HASH SET
+iii)tree set
+
+hash set:-
+----------------------------------
+collectuon of elements with no insertion order is maintained.
+duplicates are not allowed 
+heterogeneous elements are also not allowed.
+indexing is alos not possible in set.
+*it stores only one null value.
+Syntax:-
+----------------------------------------------
+HASHSET <> HASHSET-NAME=NEW HASHSET<> ();
+HASH SET METHODS:-
+---------------------
+i)add
+ii)set
+iii)get
+iv)size
+v)remove
+vi)contains
+vii)clear.
+
+when to use HASHSET:
+------------------------------
+If there no duplicates in your data then we can use HASHSET.
+LINKEDHASHSET:-
+---------------------------------------
+collections of elements that stores unique elements
+*insertion order is maintained.
+no duplicates are allowed.
+only one null value is stored.
+syntax of LINKEDHASHSET:-
+------------------------------------------
+LINKEDHASHSET<> () LINKEDHASHSET-NAME=NEW LINKEDHASHSET<>();
+Methods of LINKEDHASHSET:-
+----------------------------
+i)add
+ii)set
+iii)get
+iv)size
+v)remove
+vi)contains
+vii)clear.
+viii)isclear()
+when to use Linkedhashset:-
+-----------------------------------
+if your data doesnt contains any duplicate values and you want to preserve insertion order then we can use LINKEDHASHSET.
+=================================================================================================================================
+TREE SET:
+-------------------------
+Stores unique values only (no duplicates).
+
+Automatically keeps the values in sorted order (smallest to biggest).
+
+Does not allow null values.
+syntax:-
+-------------------------
+TreeSet<String> treeSet = new TreeSet<>();
+Methods in TREESET:
+---------------------------
+i)add
+ii)set
+iii)get
+iv)size
+v)remove
+vi)contains
+vii)clear.
+viii)isclear()
+when to use TREESET:
+--------------------------------------
+when your data doesnt have any duplicate elements .
+always maintains a sorted list of elements either in ascending or descending order.
+fast,search,addition,removal operations can be done easily.
+========================================================================================
+=======================================================================================
+MAP:-
+------------------
+A map is an interface that represents an key value-pairs.
+MAP does not allow duplicates keys.
+in key-value pairs key must and should be unique and values can be duplicates.
+IMPLEMENTATION CLASSES OF MAP:-
+------------------------------------------
+i)HASHMAP
+ii)LINKEDHASHMAP
+iii)TREE Map
+iv)HASH TABLE.
+HASHMAP:-
+-------------------
+HashMap is a class in the java.util package that implements the Map interface. It stores data in the form of key-value pairs.
+👉 Basic Concept:
+Each value is accessed by its unique key.
+
+Keys must be unique, but values can be duplicated.
+
+HashMap is not ordered — it does not maintain insertion order
+syntax:-
+----------------------
+import java.util.HashMap;
+
+HashMap<KeyType, ValueType> map = new HashMap<>();
+-----------------------------------------------------------------
+Commonly Used Methods
+-----------------------------------------------------------------
+Method	                            Description
+put(K key, V value)	            Adds or updates a key-value pair
+get(Object key)	                Retrieves the value for the specified key
+remove(Object key)	            Removes the key and its mapping
+containsKey(Object key)	        Checks if the key exists
+containsValue(Object value)	    Checks if the value exists
+isEmpty()	                    Checks if the map is empty
+clear()	                        Removes all key-value pairs
+keySet()	                    Returns a set of all keys
+values()	                    Returns a collection of all values
+entrySet()	                    Returns a set of all key-value entries
+when to use hashmap:-
+--------------------------------
+when your order of elements is not a matter then you can use hashmap.
+===================================================================================
+LINKEDHASHMAP:-
+LinkedHashMap is a class in Java that implements the Map interface and extends HashMap.
+It maintains a linked list of the entries in the order in which they were inserted.
+Key-Value Store + Insertion Order Maintained
+Internally, LinkedHashMap uses a hash table to store entries.
+Syntax of LINKEDHASHMAP:-
+-------------------------------
+import java.util.LinkedHashMap;
+
+LinkedHashMap<KeyType, ValueType> map = new LinkedHashMap<>();
+----------------------------------
+ommon Methods (Same as HashMap)
+Method	                Description
+put(key, value)	        Adds or replaces a key-value pair
+get(key)	            Gets the value for a given key
+remove(key)	            Removes entry by key
+clear()	                Removes all mappings
+keySet()	            Returns all keys
+values()	            Returns all values
+entrySet()	            Returns all key-value pairs
+containsKey(key)	    Checks if key exists
+containsValue(value)	Checks if value exists
+WHEN TO USE LINKEDHASHMAP:-
+------------------------------
+When you want to maintain insertion at that time we are using linkedhashmap.
